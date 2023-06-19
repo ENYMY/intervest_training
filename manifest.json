@@ -1,0 +1,11 @@
+{
+    "name": "MoodBlaster-01",
+    "version": "1.0.1",
+    "description": "Motivate user with a quote",
+    "manifest_version": 3,
+    "author": "Shaja Nasir",
+    "action": {
+        "default_popup" :"index.html",
+        "default_title":"Quote"
+    }
+}
