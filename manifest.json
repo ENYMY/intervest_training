@@ -5,7 +5,11 @@
     "manifest_version": 3,
     "author": "Shaja Nasir",
     "action": {
-        "default_popup" :"index.html",
+        "default_popup" :"newTab.html",
         "default_title":"Quote"
-    }
+    },
+    "permissions": ["activeTab", "scripting"],
+    "background": {
+    "service_worker": "newTab.js"
+  }
 }
